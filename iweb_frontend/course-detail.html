@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="css/scaffolding.css">
 		<link rel="stylesheet" href="css/layout.css">
 		<link rel="stylesheet" href="css/components.css">
-		<link rel="stylesheet" href="css/course.css">
+		<link rel="stylesheet" href="css/course-detail.css">
 	</head>
 	<body>
 		<!-- 1.最顶部的“灰色条”：topbar -->
@@ -110,151 +110,44 @@
 					<ul>
 						<li><a href="index.html">首页</a></li>
 						<li><a href="course.html">全部课程</a></li>
+						<li><a href="course.html">课程详情</a></li>
 					</ul>
 				</div>
-				<!-- 5.2 课程类别 -->
-				<div class="course-types">
-					<span>课程等级：</span>
-					<ul>
-						<li class="active"><a href="#">不限</a></li>
-						<li><a href="#">基础课程</a></li>
-						<li><a href="#">核心课程</a></li>
-						<li><a href="#">进阶课程</a></li>
-					</ul>
-				</div>
-				<!-- 5.3 课程列表 -->
-				<div class="course-list">
-					<!-- 一个课程 -->
-					<div class="row  course">
-						<div class="col-sm-5 col-md-3 col-lg-3">
-							<img class="pic" src="img/course/01.jpg">
-						</div>
-						<div class="col-sm-7 col-md-7 col-lg-7  details">
-							<h3>12-微信小程序开发</h3>
-							<p>讲师：程涛</p>
-							<p>课时：1天</p>
-							<p class="hidden-sm">开课时间：每周一开课</p>
-							<p class="hidden-sm">上课地点：i前端各校区 查看各校区地址</p>
-							<span>￥599.00</span>
-						</div>
-						<div class="col-md-2 col-lg-2  jump">
-							<button data-jump-to-detail="115" class="jump2details">查看详情</button>
-						</div>
+				<!-- 5.2 课程介绍 -->
+				<div class="row course-header">
+					<div class="col-lg-5">
+						<img class="pic" src="img/course/01.jpg">
 					</div>
-					<!-- 一个课程 -->
-					<div class="row  course">
-							<div class="col-sm-5 col-md-3 col-lg-3">
-								<img class="pic" src="img/course/02.jpg">
-							</div>
-							<div class="col-sm-7 col-md-7 col-lg-7  details">
-								<h3>12-微信小程序开发</h3>
-								<p>讲师：程涛</p>
-								<p>课时：1天</p>
-								<p class="hidden-sm">开课时间：每周一开课</p>
-								<p class="hidden-sm">上课地点：i前端各校区 查看各校区地址</p>
-								<span>￥599.00</span>
-							</div>
-							<div class="col-md-2 col-lg-2  jump">
-								<button data-jump-to-detail="115" class="jump2details">查看详情</button>
-							</div>
+					<div class="col-lg-7">
+						<h1>12-微信小程序开发</h1>
+						<ul class="items">
+							<li>讲师:程涛</li>
+							<li>课时:1天</li>
+							<li>开课时间: 每周一开课</li>
+							<li>上课地点: i前端各校区
+								<a href="#">查看各校区地址</a>
+							</li>
+						</ul>
+						<div class="price">课程价格:
+							<span>￥ 599.00</span>
 						</div>
-					<!-- 一个课程 -->
-					<div class="row  course">
-							<div class="col-sm-5 col-md-3 col-lg-3">
-								<img class="pic" src="img/course/03.jpg">
-							</div>
-							<div class="col-sm-7 col-md-7 col-lg-7  details">
-								<h3>12-微信小程序开发</h3>
-								<p>讲师：程涛</p>
-								<p>课时：1天</p>
-								<p class="hidden-sm">开课时间：每周一开课</p>
-								<p class="hidden-sm">上课地点：i前端各校区 查看各校区地址</p>
-								<span>￥599.00</span>
-							</div>
-							<div class="col-md-2 col-lg-2  jump">
-								<button data-jump-to-detail="234" class="jump2details">查看详情</button>
-							</div>
-						</div>
-					<!-- 一个课程 -->
-					<div class="row  course">
-						<div class="col-sm-5 col-md-3 col-lg-3">
-							<img class="pic" src="img/course/04.jpg">
-						</div>
-						<div class="col-sm-7 col-md-7 col-lg-7  details">
-							<h3>12-微信小程序开发</h3>
-							<p>讲师：程涛</p>
-							<p>课时：1天</p>
-							<p class="hidden-sm">开课时间：每周一开课</p>
-							<p class="hidden-sm">上课地点：i前端各校区 查看各校区地址</p>
-							<span>￥599.00</span>
-						</div>
-						<div class="col-md-2 col-lg-2  jump">
-							<button data-jump-to-detail="119" class="jump2details">查看详情</button>
-						</div>
-					</div>
-					<!-- 一个课程 -->
-						<div class="row  course">
-							<div class="col-sm-5 col-md-3 col-lg-3">
-								<img class="pic" src="img/course/06.jpg">
-							</div>
-							<div class="col-sm-7 col-md-7 col-lg-7  details">
-								<h3>12-微信小程序开发</h3>
-								<p>讲师：程涛</p>
-								<p>课时：1天</p>
-								<p class="hidden-sm">开课时间：每周一开课</p>
-								<p class="hidden-sm">上课地点：i前端各校区 查看各校区地址</p>
-								<span>￥599.00</span>
-							</div>
-							<div class="col-md-2 col-lg-2  jump">
-								<button data-jump-to-detail="358" class="jump2details">查看详情</button>
-							</div>
-						</div>
-					<!-- 一个课程 -->
-					<div class="row  course">
-						<div class="col-sm-5 col-md-3 col-lg-3">
-							<img class="pic" src="img/course/05.jpg">
-						</div>
-						<div class="col-sm-7 col-md-7 col-lg-7  details">
-							<h3>12-微信小程序开发</h3>
-							<p>讲师：程涛</p>
-							<p>课时：1天</p>
-							<p class="hidden-sm">开课时间：每周一开课</p>
-							<p class="hidden-sm">上课地点：i前端各校区 查看各校区地址</p>
-							<span>￥599.00</span>
-						</div>
-						<div class="col-md-2 col-lg-2  jump">
-							<button data-jump-to-detail="148" class="jump2details">查看详情</button>
-						</div>
-					</div>
-					<!-- 一个课程 -->
-					<div class="row  course">
-						<div class="col-sm-5 col-md-3 col-lg-3">
-							<img class="pic" src="img/course/06.jpg">
-						</div>
-						<div class="col-sm-7 col-md-7 col-lg-7  details">
-							<h3>12-微信小程序开发</h3>
-							<p>讲师：程涛</p>
-							<p>课时：1天</p>
-							<p class="hidden-sm">开课时间：每周一开课</p>
-							<p class="hidden-sm">上课地点：i前端各校区 查看各校区地址</p>
-							<span>￥599.00</span>
-						</div>
-						<div class="col-md-2 col-lg-2  jump">
-							<button data-jump-to-detail="267" class="jump2details">查看详情</button>
-						</div>
+						<button class="add-to-cart">
+							<span class="fa fa-shopping-cart"></span>
+							加入购物车</button>
+						<button class="add-to-favorite">加入收藏</button>
 					</div>
 				</div>
-				<!-- 5.4 分页条 -->
-				<div class="pager">
-					<ul>
-						<li class="disabled"><a href="#">首页</a></li>
-						<li class="active"><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">尾页</a></li>
-					</ul>
+				<!-- 5.3课程介绍：详情 -->
+				<div class="course-details">
+					<div class="course-details-header">
+						<h3>课程详情</h3>
+						<span></span>
+					</div>
+					<div class="course-details-body">
+						<P>培养学生的创新精神和实践能力。材料中“我”包办节目，没有给同学机会，不注重培养学生的创新精神，后来将导演任务交给同学，鼓励同学进行实践，培养了学生的实践能力。培养学生的创新精神和实践能力。材料中“我”包办节目，没有给同学机会，不注重培养学生的创新精神，后来将导演任务交给同学，鼓励同学进行实践，培养了学生的实践能力。</P>
+						<P>学生具有发展潜能。材料中“我”意识到学生长大了，具有独立思考意识，说明“我”看到了学生的发展潜能。教师尊重、赞赏学生，是学生学习的促进者。材料中“我”听到学生议论后没有批评学生，而是课后单独谈话，并将导演任务交给同学，与同学商量，体现了教师尊重、赞赏学生，促进学生学习。学生具有发展潜能。材料中“我”意识到学生长大了，具有独立思考意识，说明“我”看到了学生的发展潜能。教师尊重、赞赏学生，是学生学习的促进者。材料中“我”听到学生议论后没有批评学生，而是课后单独谈话，并将导演任务交给同学，与同学商量，体现了教师尊重、赞赏学生，促进学生学习。</P>
+						<P>教师注重自我反思。材料中“我”听到学生议论后，意识到“包办代替”的不足，反思教学的任务，并逐步放手，促进学生成长，体现了教师注重自我反思。教师注重自我反思。材料中“我”听到学生议论后，意识到“包办代替”的不足，反思教学的任务，并逐步放手，促进学生成长，体现了教师注重自我反思。</P>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -361,6 +254,6 @@
 			</div>
 		</div>
 		<script src="js/components.js"></script>
-		<script src="js/course.js"></script>
+		<script src="js/course-detail.js"></script>
 	</body>
 </html>
